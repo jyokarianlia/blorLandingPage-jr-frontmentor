@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import imgEditor from './assets/images/illustration-editor-mobile.svg'
 import imgLaptop from './assets/images/illustration-laptop-mobile.svg'
+import imgPhone from './assets/images/illustration-phones.svg'
 
 function App() {
 
@@ -31,9 +32,10 @@ function App() {
         by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
       </div>
 
-      <div className='elemento'>
-        <h3>State of the Art Infrastructure</h3>
-        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+      <div className='elemento central'>
+        <img src= { imgPhone } alt="Imagen" />
+        <h3 className='overpass t-700'>State of the Art Infrastructure</h3>
+        <p className='ubuntu'>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
         This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
       </div>
 
