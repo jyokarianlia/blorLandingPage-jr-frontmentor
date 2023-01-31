@@ -1,6 +1,7 @@
 
 import './App.css'
 import Header from './components/Header'
+import imgLogo from './assets/images/logo.svg'
 import imgEditor from './assets/images/illustration-editor-mobile.svg'
 import imgLaptop from './assets/images/illustration-laptop-mobile.svg'
 import imgPhone from './assets/images/illustration-phones.svg'
@@ -56,27 +57,35 @@ function App() {
         capable of producing even the most complicated sites. </p>
       </div>
 
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn
-
+      <footer className='ubuntu'>
+        <img src={ imgLogo } alt="Imagen" />
+        <ul>
+          <li>Product
+            <ul>
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marcketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+          </li>
+          <li>Company
+            <ul>
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          </li>
+          <li>Connect
+            <ul>
+            <li>Contac</li>
+            <li>Newsletter</li>
+            <li>LinkedIn</li>
+            </ul>
+          </li>
+        </ul>
+      </footer>
     </div>
   )
 }
